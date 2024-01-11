@@ -19,7 +19,7 @@ requirements:
     - pip
     - setuptools
     - wheel
-    - spacy
+    - spacy 3.7.2
   run:
     - python
     - pytest
