@@ -32,8 +32,13 @@ test:
 
 about:
   home: https://github.com/Abhijit-2592/spacy-langdetect
+  summary: Fully customizable language detection pipeline for spaCy
+  description: Fully customizable language detection pipeline for spaCy
   license: MIT
   license_file: LICENSE
+  license_family: MIT
+  doc_url: https://github.com/Abhijit-2592/spacy-langdetect
+  dev_url: https://github.com/Abhijit-2592/spacy-langdetect
 
 extra:
   recipe-maintainers:
