@@ -17,10 +17,12 @@ requirements:
   host:
     - python
     - pip
+    - setuptools
+    - wheel
   run:
     - python
     - pytest
-    - langdetect >=1.0.7
+    - langdetect 1.0.7
 
 test:
   imports:
