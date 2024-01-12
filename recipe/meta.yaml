@@ -18,13 +18,14 @@ build:
   number: 0
 
 requirements:
+  build:
+    - patch  # [not win]
+    - m2-patch  # [win]
   host:
     - python
     - pip
     - setuptools
     - wheel
-    - patch  # [not win]
-    - m2-patch  # [win]
   run:
     - python
     - langdetect 1.0.7
