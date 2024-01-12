@@ -23,7 +23,6 @@ requirements:
     - wheel
   run:
     - python
-    - pytest
     - langdetect 1.0.7
     - spacy >=2.0.0
 
