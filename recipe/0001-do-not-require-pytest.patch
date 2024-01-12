@@ -1,0 +1,9 @@
+--- setup.py	2019-05-02 08:40:51.000000000 +0200
++++ setup.py	2024-01-12 14:56:19.314845427 +0100
+@@ -18,5 +18,5 @@
+         "License :: OSI Approved :: MIT License",
+         "Operating System :: OS Independent",
+     ],
+-    install_requires=['pytest', 'langdetect==1.0.7']
++    install_requires=['langdetect==1.0.7', 'spacy>=2.0.0']
+ )
