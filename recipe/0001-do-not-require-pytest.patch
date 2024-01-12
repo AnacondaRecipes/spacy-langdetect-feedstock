@@ -5,5 +5,5 @@
          "Operating System :: OS Independent",
      ],
 -    install_requires=['pytest', 'langdetect==1.0.7']
-+    install_requires=['langdetect==1.0.7']
++    install_requires=['langdetect==1.0.7', 'spacy>=2.0.0']
  )
